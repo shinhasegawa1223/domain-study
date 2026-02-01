@@ -44,7 +44,7 @@
 
 ### イメージ
 
-![ステークホルダー](../pic/stakeholders.png)
+![ステークホルダー](../pic/03_stakeholders/stakeholders.png)
 
 ### 大切な事
 #### ドメインエキスパートとの協力

@@ -30,7 +30,7 @@
 
 ## イメージ図
 
-![サブドメインの分類](../pic/subdomain.png)
+![サブドメインの分類](../pic/04_subdomain/subdomain.png)
 
 ---
 

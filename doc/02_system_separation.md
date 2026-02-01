@@ -62,7 +62,7 @@ DDDにおける**境界づけられたコンテキスト（Bounded Context）** 
 
 
 ### イメージ
-![システム分割の概念図](../pic/system_separation.png)
+![システム分割の概念図](../pic/02_system_separation/system_separation.png)
 
 
 ## 🎯 なぜこう分けるのか？

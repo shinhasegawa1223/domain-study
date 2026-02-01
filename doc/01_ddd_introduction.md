@@ -25,7 +25,7 @@
 <br>
 
 ### イメージ
-![DDDの概念図](../pic/study.png)
+![DDDの概念図](../pic/01_ddd_introduction/study.png)
 <br>
 
 ### 分類

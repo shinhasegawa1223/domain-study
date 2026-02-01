@@ -91,6 +91,6 @@
 
 <br>
 
-![サブドメインの分類](../pic/bounded_context.png)
+![サブドメインの分類](../pic/05_bounded_context/bounded_context.png)
 
 ---
