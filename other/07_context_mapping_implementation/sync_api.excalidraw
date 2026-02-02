@@ -1,0 +1,362 @@
+{
+    "type": "excalidraw",
+    "version": 2,
+    "source": "https://excalidraw.com",
+    "elements": [
+        {
+            "type": "text",
+            "version": 1,
+            "id": "title",
+            "x": 280,
+            "y": 30,
+            "width": 350,
+            "height": 45,
+            "text": "🔗 同期API（REST / gRPC）",
+            "fontSize": 32,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "order-ctx",
+            "x": 80,
+            "y": 120,
+            "width": 200,
+            "height": 120,
+            "strokeColor": "#1971c2",
+            "backgroundColor": "#a5d8ff",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "order-label",
+            "x": 120,
+            "y": 145,
+            "width": 120,
+            "height": 70,
+            "text": "注文管理\nコンテキスト\n（顧客）",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1971c2"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "stock-ctx",
+            "x": 520,
+            "y": 120,
+            "width": 200,
+            "height": 120,
+            "strokeColor": "#2f9e44",
+            "backgroundColor": "#b2f2bb",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "stock-label",
+            "x": 560,
+            "y": 145,
+            "width": 120,
+            "height": 70,
+            "text": "在庫管理\nコンテキスト\n（供給者）",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "arrow",
+            "version": 1,
+            "id": "request-arrow",
+            "x": 280,
+            "y": 155,
+            "width": 240,
+            "height": 0,
+            "strokeColor": "#1971c2",
+            "strokeWidth": 3,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    240,
+                    0
+                ]
+            ]
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "request-label",
+            "x": 330,
+            "y": 130,
+            "width": 140,
+            "height": 20,
+            "text": "GET /api/v1/stocks/{id}",
+            "fontSize": 12,
+            "fontFamily": 3,
+            "textAlign": "center",
+            "strokeColor": "#1971c2"
+        },
+        {
+            "type": "arrow",
+            "version": 1,
+            "id": "response-arrow",
+            "x": 520,
+            "y": 200,
+            "width": 240,
+            "height": 0,
+            "strokeColor": "#2f9e44",
+            "strokeWidth": 3,
+            "strokeStyle": "dashed",
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -240,
+                    0
+                ]
+            ]
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "response-label",
+            "x": 340,
+            "y": 210,
+            "width": 120,
+            "height": 20,
+            "text": "200 OK {quantity: 50}",
+            "fontSize": 12,
+            "fontFamily": 3,
+            "textAlign": "center",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "acl-box",
+            "x": 80,
+            "y": 280,
+            "width": 640,
+            "height": 100,
+            "strokeColor": "#9c36b5",
+            "backgroundColor": "#f8f0fc",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "acl-title",
+            "x": 320,
+            "y": 290,
+            "width": 160,
+            "height": 25,
+            "text": "🛡️ ACL（腐敗防止層）",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#9c36b5"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "acl-detail",
+            "x": 100,
+            "y": 320,
+            "width": 600,
+            "height": 50,
+            "text": "外部APIのレスポンス → 自社モデルに変換\n例: Stripe {amount_cents: 1000} → PaymentResult {amount: 1000円}",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "merit-box",
+            "x": 80,
+            "y": 420,
+            "width": 300,
+            "height": 120,
+            "strokeColor": "#2f9e44",
+            "backgroundColor": "#ebfbee",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "merit-title",
+            "x": 180,
+            "y": 430,
+            "width": 100,
+            "height": 25,
+            "text": "✅ メリット",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "merit-text",
+            "x": 95,
+            "y": 465,
+            "width": 270,
+            "height": 60,
+            "text": "・リアルタイム性\n・シンプルな実装\n・デバッグしやすい",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "left",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "demerit-box",
+            "x": 420,
+            "y": 420,
+            "width": 300,
+            "height": 120,
+            "strokeColor": "#e03131",
+            "backgroundColor": "#fff5f5",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "demerit-title",
+            "x": 510,
+            "y": 430,
+            "width": 120,
+            "height": 25,
+            "text": "⚠️ デメリット",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#e03131"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "demerit-text",
+            "x": 435,
+            "y": 465,
+            "width": 270,
+            "height": 60,
+            "text": "・同期呼び出しによる遅延\n・カスケード障害のリスク\n・タイムアウト設計が必要",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "left",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "circuit-box",
+            "x": 80,
+            "y": 570,
+            "width": 640,
+            "height": 80,
+            "strokeColor": "#e67700",
+            "backgroundColor": "#fff4e6",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "circuit-title",
+            "x": 300,
+            "y": 580,
+            "width": 200,
+            "height": 25,
+            "text": "⚡ サーキットブレーカー",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#e67700"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "circuit-text",
+            "x": 100,
+            "y": 610,
+            "width": 600,
+            "height": 30,
+            "text": "障害連鎖を防ぐ：失敗が続いたら呼び出しを一時停止",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "pattern-box",
+            "x": 80,
+            "y": 680,
+            "width": 640,
+            "height": 50,
+            "strokeColor": "#5c5c5c",
+            "backgroundColor": "#e9ecef",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "pattern-text",
+            "x": 180,
+            "y": 695,
+            "width": 440,
+            "height": 25,
+            "text": "🎯 適用パターン: Customer/Supplier, OHS, ACL",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        }
+    ],
+    "appState": {
+        "viewBackgroundColor": "#ffffff",
+        "gridSize": null
+    }
+}

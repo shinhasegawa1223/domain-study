@@ -1,0 +1,391 @@
+{
+    "type": "excalidraw",
+    "version": 2,
+    "source": "https://excalidraw.com",
+    "elements": [
+        {
+            "type": "text",
+            "version": 1,
+            "id": "title",
+            "x": 260,
+            "y": 30,
+            "width": 380,
+            "height": 45,
+            "text": "📨 非同期メッセージング",
+            "fontSize": 32,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "order-ctx",
+            "x": 80,
+            "y": 100,
+            "width": 180,
+            "height": 100,
+            "strokeColor": "#1971c2",
+            "backgroundColor": "#a5d8ff",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "order-label",
+            "x": 115,
+            "y": 125,
+            "width": 110,
+            "height": 50,
+            "text": "注文管理\n（Publisher）",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1971c2"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "delivery-ctx",
+            "x": 540,
+            "y": 100,
+            "width": 180,
+            "height": 100,
+            "strokeColor": "#2f9e44",
+            "backgroundColor": "#b2f2bb",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "delivery-label",
+            "x": 575,
+            "y": 125,
+            "width": 110,
+            "height": 50,
+            "text": "配送管理\n（Subscriber）",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "arrow",
+            "version": 1,
+            "id": "publish-arrow",
+            "x": 170,
+            "y": 200,
+            "width": 0,
+            "height": 60,
+            "strokeColor": "#1971c2",
+            "strokeWidth": 2,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    60
+                ]
+            ]
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "publish-label",
+            "x": 185,
+            "y": 220,
+            "width": 60,
+            "height": 20,
+            "text": "publish",
+            "fontSize": 12,
+            "fontFamily": 3,
+            "textAlign": "left",
+            "strokeColor": "#1971c2"
+        },
+        {
+            "type": "arrow",
+            "version": 1,
+            "id": "subscribe-arrow",
+            "x": 630,
+            "y": 260,
+            "width": 0,
+            "height": -60,
+            "strokeColor": "#2f9e44",
+            "strokeWidth": 2,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    -60
+                ]
+            ]
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "subscribe-label",
+            "x": 645,
+            "y": 220,
+            "width": 70,
+            "height": 20,
+            "text": "subscribe",
+            "fontSize": 12,
+            "fontFamily": 3,
+            "textAlign": "left",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "broker-box",
+            "x": 80,
+            "y": 280,
+            "width": 640,
+            "height": 120,
+            "strokeColor": "#9c36b5",
+            "backgroundColor": "#f8f0fc",
+            "fillStyle": "solid",
+            "strokeWidth": 3,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "broker-title",
+            "x": 280,
+            "y": 290,
+            "width": 240,
+            "height": 25,
+            "text": "メッセージブローカー",
+            "fontSize": 18,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#9c36b5"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "broker-subtitle",
+            "x": 300,
+            "y": 315,
+            "width": 200,
+            "height": 20,
+            "text": "(Kafka / RabbitMQ / SQS)",
+            "fontSize": 12,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#868e96"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "topic-box",
+            "x": 160,
+            "y": 345,
+            "width": 480,
+            "height": 40,
+            "strokeColor": "#e67700",
+            "backgroundColor": "#fff4e6",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "topic-text",
+            "x": 200,
+            "y": 355,
+            "width": 400,
+            "height": 20,
+            "text": "Topic: order-events  {\"type\": \"OrderPlaced\", \"orderId\": \"123\"}",
+            "fontSize": 12,
+            "fontFamily": 3,
+            "textAlign": "center",
+            "strokeColor": "#e67700"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "merit-box",
+            "x": 80,
+            "y": 430,
+            "width": 300,
+            "height": 120,
+            "strokeColor": "#2f9e44",
+            "backgroundColor": "#ebfbee",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "merit-title",
+            "x": 180,
+            "y": 440,
+            "width": 100,
+            "height": 25,
+            "text": "✅ メリット",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#2f9e44"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "merit-text",
+            "x": 95,
+            "y": 475,
+            "width": 270,
+            "height": 60,
+            "text": "・疎結合\n・障害耐性（リトライ可能）\n・スケーラブル",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "left",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "demerit-box",
+            "x": 420,
+            "y": 430,
+            "width": 300,
+            "height": 120,
+            "strokeColor": "#e03131",
+            "backgroundColor": "#fff5f5",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "demerit-title",
+            "x": 510,
+            "y": 440,
+            "width": 120,
+            "height": 25,
+            "text": "⚠️ デメリット",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#e03131"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "demerit-text",
+            "x": 435,
+            "y": 475,
+            "width": 270,
+            "height": 60,
+            "text": "・結果整合性（即座に反映されない）\n・デバッグが複雑\n・順序保証の設計が必要",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "left",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "event-flow",
+            "x": 80,
+            "y": 580,
+            "width": 640,
+            "height": 70,
+            "strokeColor": "#1971c2",
+            "backgroundColor": "#e7f5ff",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "event-title",
+            "x": 280,
+            "y": 590,
+            "width": 240,
+            "height": 25,
+            "text": "📤 イベントの流れ",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1971c2"
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "event-text",
+            "x": 100,
+            "y": 620,
+            "width": 600,
+            "height": 25,
+            "text": "注文確定 → OrderPlacedEvent発行 → 配送が受信 → Shipment作成",
+            "fontSize": 14,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        },
+        {
+            "type": "rectangle",
+            "version": 1,
+            "id": "pattern-box",
+            "x": 80,
+            "y": 680,
+            "width": 640,
+            "height": 50,
+            "strokeColor": "#5c5c5c",
+            "backgroundColor": "#e9ecef",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "roundness": {
+                "type": 3
+            }
+        },
+        {
+            "type": "text",
+            "version": 1,
+            "id": "pattern-text",
+            "x": 180,
+            "y": 695,
+            "width": 440,
+            "height": 25,
+            "text": "🎯 適用パターン: Partnership, ACL, イベント駆動",
+            "fontSize": 16,
+            "fontFamily": 1,
+            "textAlign": "center",
+            "strokeColor": "#1e1e1e"
+        }
+    ],
+    "appState": {
+        "viewBackgroundColor": "#ffffff",
+        "gridSize": null
+    }
+}
