@@ -19,6 +19,7 @@
 | 7 | [コンテキストマップ実装](doc/07_context_mapping_implementation.md) | 連携パターンの実装技術、選定基準 |
 | 8 | [ECサイトコンテキストマップ](doc/08_ec_context_mapping.md) | ECサイトでの実践例、設計判断 |
 | 9 | [ドメインモデリングと可視化](doc/09_domain_modeling.md) | モデリング手法、集約とポリシー、ビジネスルール |
+| 10 | [戦術的設計](doc/10_tactical_design.md) | データ中心設計の問題点、戦術的設計による改善 |
 
 ### 図解（Excalidraw）
 
