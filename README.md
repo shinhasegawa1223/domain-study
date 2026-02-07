@@ -21,6 +21,7 @@
 | 9 | [ドメインモデリングと可視化](doc/09_domain_modeling.md) | モデリング手法、集約とポリシー、ビジネスルール |
 | 10 | [戦術的設計](doc/10_tactical_design.md) | レイヤードアーキテクチャ、Before/After比較 |
 | 11 | [戦術的設計の構成要素](doc/11_tactical_components.md) | 値オブジェクト、エンティティ、集約、リポジトリなど |
+| 12 | [戦術的設計のベストプラクティス](doc/12_tactical_design_best_practices.md) | 推奨パターン、アンチパターン、設計原則 |
 
 ### 図解（Excalidraw）
 
