@@ -5,6 +5,7 @@ description: ドキュメント追加時にREADME.mdの目次を更新する
 # ドキュメント追加時のルール
 
 新しいドキュメント（study*.md）やExcalidrawファイルを追加した場合、必ず以下を実行する。
+注意：git commit 前は必ずREADME.mdの整合性を確認する目次とか特に
 
 ## 手順
 
@@ -21,3 +22,4 @@ description: ドキュメント追加時にREADME.mdの目次を更新する
    - study1, study2, study3... の順番を確認
 
 // turbo-all
+
