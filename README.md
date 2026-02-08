@@ -22,6 +22,7 @@
 | 10 | [戦術的設計](doc/10_tactical_design.md) | レイヤードアーキテクチャ、Before/After比較 |
 | 11 | [戦術的設計の構成要素](doc/11_tactical_components.md) | 値オブジェクト、エンティティ、集約、リポジトリなど |
 | 12 | [戦術的設計のベストプラクティス](doc/12_tactical_design_best_practices.md) | 推奨パターン、アンチパターン、設計原則 |
+| 13 | [アーキテクチャパターンの比較](doc/13_architectural_patterns.md) | レイヤード、ヘキサゴナル、オニオン、クリーン |
 
 ### 図解（Excalidraw）
 
